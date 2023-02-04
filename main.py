@@ -6,7 +6,7 @@ from graphic_arts.start_game_banner import run_screensaver
 
 
 def attack(char_name: str, char_class: str) -> str:
-    """Generate the number of attack points depending on the charactr type."""
+    """Generate the numbers of attack points depending on the charactr type."""
     if char_class == 'warrior':
         return (f'{char_name} нанёс противнику урон, равный '
                 f'{5 + randint(3, 5)}')
